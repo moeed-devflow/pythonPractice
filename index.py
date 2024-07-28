@@ -97,5 +97,139 @@
 # print(fruits)
 
 
+# pets=["cat","dog","lion","hen"]
 
-pets[]
+# petremove=input("Enter A PEt You want to remove ")
+
+# if petremove in pets:
+#     pets.remove(petremove)
+#     print(f" Your entered Pets is {petremove}  is removed from this list")
+# else:
+#     print("Pet Not Found")
+
+
+
+# Movies=[]
+
+# for i in range(1,5):
+#     movie=input("Enter Movie Name:- ")
+#     Movies.append(movie)
+# print(Movies," Before REmoving List ")
+# removeMovie=input("Enter A MOvie name Which You want to remove ")
+# if removeMovie in Movies:
+#     Movies.remove(removeMovie)
+#     print(f"These Are Remaining Movies In Your List {Movies}")
+# else:
+#     print("Movie Not Found")  # 
+
+
+
+
+# words=["hello","world"]
+# print(words)
+# for i in range(1,3):
+#     word=input("Enter Your Desire Word ")
+#     words.append(word)
+
+# print(words)
+    
+
+
+# hobbis=[]
+# foods=[]
+
+# for i in range(1,2):
+#     hobby=input("Enter Your Hobby:- ")
+#     hobbis.append(hobby)
+#     hobby=input("Enter Your second Hobby:- ")
+#     hobbis.append(hobby)
+#     hobby=input("Enter Your third Hobby:- ")
+#     hobbis.append(hobby)
+#     food=input("Enter Your food:- ")
+#     foods.append(food)
+#     food=input("Enter Your second Food:- ")
+#     foods.append(food)
+#     food=input("Enter Your third Food:- ")
+#     foods.append(food)
+
+# NestedList=[hobbis,foods]
+# select=int(input("print 1 for foor and 2nd for hobbies"))
+# if select==1:
+#     print(NestedList[0])
+# elif select==2:
+#     print(NestedList[1])
+# else:
+#     print("Invalid Input")  
+
+
+
+
+
+
+
+# num=int(input("Please Enter A Number:-"))
+# rever=0
+# while num!=0:
+#     lastDigit=num%10
+#     num=num//10
+#     rever=rever*10+lastDigit
+# print(rever)
+
+
+# target=42
+# tries=1
+
+# while tries!=0:
+#     num=int(input("Please Guess A NUmber"))
+#     if num==42:
+#         print("congrats You Won")
+#         tries=tries-1
+#     elif (num > 34 and num < 42) or (num > 42 and num < 50):
+#         print("You are close, try again!")
+# else:
+#     print("Wrong Number Try Again  Try Again")
+
+
+
+
+
+
+
+# totalAttempts=3
+# tries=0
+# passw=123
+
+# while tries!=totalAttempts:
+#     num=int(input("Please Guess A NUmber"))
+#     tries=tries+1
+#     if num==passw:
+#         print("Welcome Access Granted ")
+#         break
+#     elif num==totalAttempts:
+#         print("Attempts Exceeded ")
+       
+#     else:
+#         print("Access Denied ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
