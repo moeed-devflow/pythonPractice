@@ -215,6 +215,82 @@
 
 
 
+# numbers=[1,-2,2,-1,4,5,7,-7]
+
+# count=0
+# for i in numbers:
+#     if(i>0):
+#         count=count+1
+
+# print(count)
+
+
+
+
+# num=int(input("Enter A Number "))
+
+# sum_of_even=0
+
+# for i in range(1,num+1):
+#     if(i%2==0):
+#         sum_of_even+=i
+# print(sum_of_even)
+
+
+# num=int(input("Please Enter A Nmnber : "))
+
+# for i in range(1,11):
+#     if(i==5):
+#         continue
+#     print(num," X ",i," = ",num*i)
+
+
+
+
+# str1="hello"
+# reversed_str=''
+# for i in str1[::-1]:
+#     reversed_str+=i
+
+# print(reversed_str)
+
+
+
+
+
+# Find The Frst None Repeating Character
+
+
+# input_str="teetear"
+
+# for i in input_str:
+#     if input_str.count(i)==1:
+#         print(i,"CHAR  IS")
+#         break
+
+
+# print(input_str)
+
+#factorial Calculate
+
+
+# num=5
+# fac=1
+# for i in range(1,num+1):
+#     fac=fac*i
+# print(fac)
+
+
+
+# Keep Asking a user Until They Enter a Numver
+
+# while True:
+#     num=int(input("Ener A Value b/w 1 and 10 "))
+#     if(1<= num <=10):
+#         print("Thanks")
+#         break
+#     else:
+#         print("Invalid Number ")
 
 
 
@@ -222,10 +298,25 @@
 
 
 
+# num=int(input("Prime Number "))
+# is_prime=True
+
+# if num > 1:
+#     for i in range(2,num):
+#         if num%i==0:
+#             is_prime=False
+#             break
+# print(is_prime)
 
 
+# items=["apple","banana","orange","apple","mango"]
 
-
+# unique_item=set()
+# for i in items:
+#     if i in unique_item:
+#         print("Dulpicates ",i)
+#         break
+#     unique_item.add(i)
 
 
 
